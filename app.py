@@ -1,7 +1,11 @@
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return 'Hello Sammmmy! 123123'
-jhkhk
+def home():
+    return 'Hello, Flask on 0.0.0.0!'
+adsad
+if __name__ == '__main__':
+    app.run(debug=True)
+sadsad
